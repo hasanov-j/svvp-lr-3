@@ -56,8 +56,10 @@ new BitmapImage(new Uri(value.ToString(), UriKind.RelativeOrAbsolute))
 ```
 После инициализации окна происходит декларация обьекта созданного ранее:
 ![](images/initial-license.PNG)
+
 При нажатии на кнопку Load декларированному обьекту присваиваются новые значения для свойств: 
 ![](images/load-license.PNG)
+
 Также можно самому с помощью интерфейса поменять свойства обьекта и сохранить:
 ![](images/create-new-lisence.PNG)
 
