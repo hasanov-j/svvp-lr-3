@@ -54,11 +54,11 @@ ItemsSource="{Binding Source={StaticResource EyesFromEnum}}"
 ```
 new BitmapImage(new Uri(value.ToString(), UriKind.RelativeOrAbsolute))
 ```
-
+После инициализации окна происходит декларация обьекта созданного ранее:
 ![](images/initial-license.PNG)
-
+При нажатии на кнопку Load декларированному обьекту присваиваются новые значения для свойств: 
 ![](images/load-license.PNG)
-
+Также можно самому с помощью интерфейса поменять свойства обьекта и сохранить:
 ![](images/create-new-lisence.PNG)
 
 1. **Валидация значений**
@@ -75,6 +75,7 @@ new BitmapImage(new Uri(value.ToString(), UriKind.RelativeOrAbsolute))
 
 Добавьте всплывающую подсказку с сообщением об ошибке (используйте триггеры).
 
+Отображение ошибок валидации:
 ![](images/errors/class-error.png)
 ![](images/errors/dob-error.png)
 ![](images/errors/exp-error.png)
